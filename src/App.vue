@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import {ref} from "vue";
+import type {ITask} from "@/helpers/TaskInterface";
+
+
 
 </script>
 
@@ -14,6 +18,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/">Task list</RouterLink>
         <RouterLink to="/create-task">Create task</RouterLink>
       </nav>
+
+      <p>Created by <span style="color: #41b883; font-weight: 700">Tim Nguyen</span></p>
     </div>
   </header>
 
